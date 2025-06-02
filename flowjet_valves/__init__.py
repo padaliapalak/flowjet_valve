@@ -1,3 +1,5 @@
+__version__ = "1.0.0"
+
 import frappe
 from erpnext.stock.doctype.item.item import get_item_defaults
 from erpnext.stock.doctype.material_request.material_request import set_missing_values, update_item
